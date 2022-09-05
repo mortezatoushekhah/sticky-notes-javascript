@@ -11,15 +11,22 @@
 
 body {
   font-family: 'Vazir-FD';
-  direction: rtl;
   background-color: #424242;
 }
 
 #app {
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
   padding: 1.5rem;
   gap: 1.5rem;
+  margin: 0 auto;
+}
+
+.header h1 {
+  color: snow;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .note {
@@ -28,11 +35,20 @@ body {
   padding: 1rem;
   color: #212121;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   resize: none;
   font: inherit;
   font-size: 1rem;
   outline: none;
+  background-color: rgba(246, 246, 104, 0.959);
+}
+
+.delete-btn {
+  color: red;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .add-note {
