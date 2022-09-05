@@ -66,3 +66,12 @@ body {
 .add-note:hover {
   background: #535353;
 }
+
+.footer {
+  color: white;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 10px;
+  left: 45%;
+  text-decoration: none;
+}
